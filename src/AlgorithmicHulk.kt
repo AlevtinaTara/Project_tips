@@ -1,9 +1,9 @@
 fun main() {
     var inputLevels: Int? = null
-    var phrase1 = "I hate "
-    var phrase2 = "I love "
-    var phrase3 = "it"
-    var phrase4 = "that "
+    val phrase1 = "I hate "
+    val phrase2 = "I love "
+    val phrase3 = "it"
+    val phrase4 = "that "
     var feelingsBanner = phrase1
 
     while (inputLevels == null || (inputLevels < 1 || inputLevels > 100)) {
